@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Information {
+    background-color: black;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.Information hr {
+    border: none;
+    border-bottom: 1px solid green;
+    margin-top: 18px;
+}
+
+.Contact_Education {
+    text-align: left;
+}
+.Contact_Education ul{
+    list-style-type: none;
+}
+.Contact_Education h2{
+    margin-top: 20px;
+}
+
+.Education *{
+    margin-top: 5px;
+}
+
+.Education p{
+    color: green;
+}
+
+.Education h3,h4{
+    font-weight: 50;
+}
+
+.Contact h3{
+    margin-top: 10px;
+}
+
+.Contact li{
+    margin-top: 8px;
+}
+
+.Contact a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Contact i{
+    color: green;
+}
+
+.Linguage div{
+    height: 6px;
+    background-color: rgb(3, 46, 3);
+    width: 250px;
+}
+.Linguage .bloco01 {
+    background-color: green;
+    width: 100%;
+}
+.Linguage .bloco02 {
+    background-color: green;
+    width: 30%;
+}
+
+.Linguage li{
+    margin-top: 8px;
+}
+
+.Details {
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+}
+
+.Details section{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.Details p{
+    margin-top: 10px;
+}
+
+.Details a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.Details section div{
+    text-align: right;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;   
+    margin-bottom: 18px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        height: 1000px;
+    }
+    .container img {
+        height: 200px;
+        width: 200px;
+    }
+    .Details section div {
+        font-style: oblique;
+        font-size: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
